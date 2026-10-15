@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Emotion Match</title> //ganti dengan nama kelompok
+<title>kelompok 2</title> 
 <style>
 :root{--navy:#17234a;--blue:#2e63d5;--yellow:#ffd34e;--cream:#fff9e9;--ink:#202744;--green:#16845b;--red:#c84646}
 *{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:var(--ink);background:linear-gradient(135deg,#fff9e9,#eef3ff);min-height:100vh}
@@ -149,7 +149,7 @@ async function detectLoop(){
       }else if(mapped!==target && prob>=0.60){
         updateResult('Coba lagi','Target '+EMOTIONS[target].label+', terdeteksi '+EMOTIONS[mapped].label+'.',pct+'%','bad');
       }else{
-        updateResult('Terus mencoba','Tahan ekspresi sedikit lebih lama.',pct+'%'); //tugas : ganti keterangan ini
+        updateResult('Terus mencoba','ekspresinya lebih lama coy.',pct+'%'); 
       }
     }else updateResult('Ekspresi belum tersedia','Coba ekspresi happy, sad, surprised, atau angry.','Tidak cocok','bad');
    }else{
